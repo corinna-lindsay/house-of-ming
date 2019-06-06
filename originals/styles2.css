@@ -1,0 +1,253 @@
+body {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-color: #FFF;
+	text-align: center;
+}
+.ming_logo {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: -90px;
+	text-align: center;
+}
+#wrapper {
+	width: 2033px;
+}
+#header {
+	background-color: #333;
+	height: 654px;
+	padding-top: 0;
+	padding-bottom: 0;
+	position: relative;
+	margin: 0px;
+}
+.bullet {
+	margin-right: 10px;
+	margin-left: 17px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#topHeader {
+	background-color: #000;
+	height: 110px;
+	width: 100%;
+	border-bottom-width: 13px;
+	border-bottom-style: double;
+	border-bottom-color: #FFF;
+}
+#socialMediaContainer {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+#socialMediaicons {
+	float: none;
+	margin-top: 35px;
+}
+#socialMediaicons li {
+	display: inline;
+	text-decoration: none;
+	float: right;
+	margin-left: 15px;
+}
+#HeaderMainContent {
+	width: 100%;
+	position: relative;
+	height: 480px;
+	background-image: url(assets/house-of-ming-background-image.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+#headerVideoContainer {
+	width: 975px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -70px;
+}
+#navContainer {
+	background-color: #000;
+	height: 52px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	width: 100%;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+#navContainer ul {
+	text-align: center;
+	top: 10px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+#navContainer li {
+	display: inline;
+	color: #FFF;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 165%;
+	margin-right: 0px;
+	text-decoration: none;
+}
+#navContainer a:link, #navContainer a:visited {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+#navContainer a:hover, #navContainer a:focus, #navContainer a:active {
+	color: #ed1c24;
+	text-decoration: none;
+}
+
+#container {
+	width: 980px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF; /* the auto margins (in conjunction with a width) center the page */
+	border: 0px none #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 10px;
+	padding-top: 0px;
+}
+#mainContent {
+	background: #FFFFFF;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+}
+.oneColFixCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.Headings {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 200%;
+	font-weight: normal;
+	text-align: center;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	padding-bottom: 1px;
+}
+
+.HeadingNoLine {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 200%;
+	font-weight: normal;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+#videoNav {
+	text-align: center;
+	margin-top: -18px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	width: 698px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #000;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 30px;
+}
+.videoListContainer {
+	width: 730px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border: 1px solid #000;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+
+#videoNav li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	display: inline;
+	text-decoration: none;
+	margin-left: 20px;
+}
+#videoNav a:link, #videoNav a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+
+#videoNav a:hover, #videoNav a:focus, #videoNav a:active {
+	color: #ed1c24;
+	text-decoration: none;
+}
+.video-subhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 115%;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	width: 513px;
+	text-align: center;
+	margin-top: 10px;
+	background-color: #000;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.galleryContainer {
+	width: 980px;
+	height: 735px;
+	margin-bottom: 40px;
+	margin-top: 35px;
+}
+
+.web_links {
+	font-weight: bold;
+	color: #ed1c24;
+}
+.centeredVideo   {
+	text-align: center;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 20;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+.floatleft {
+	float: left;
+}
+#footer {
+	height: 53px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
+	background-color: #000;
+}

@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	background-color: #FFF;
+	position: static;
+	width: 100%;
+}
+
+
+#footer {
+	display: none;
+}
+.ming_logo {
+	display: block;
+	z-index: 9999;
+}
+#HeaderMainContent a .ming_logo {
+	position: fixed;
+}
+#sidebar {
+	display: none;
+}
+#mainContent {
+	width: 18cm;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+#HeaderMainContent {
+}
+#container {
+	width: 100%;
+}
+#topHeader {
+	background-image: none;
+	display: none;
+}
+#headerVideoContainer {
+	display: none;
+}
+#navContainer {
+	display: none;
+}
+#HeaderMainContent {
+	background-image: none;
+	height: 0px;
+	width: 18cm;
+	background-color: #FFF;
+	padding-top: 2.5cm;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	margin-right: auto;
+	margin-left: auto;
+	width: 18cm;
+	background-color: #FFF;
+}
+
+#socialMediaContainer {
+	display: none;
+}
+#header {
+	background-image: none;
+	width: 18cm;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainText {
+	float: none;
+	width: 100%;
+	font-size: 12pt;
+}
+
+#videoNav {
+	display: none;
+}
+.videoListContainer p iframe {
+	display: none;
+}
+.videoListContainer {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding: 0px;
+	width: 18cm;
+	margin-right: auto;
+	margin-left: auto;
+}
+.galleryContainer {
+	width: 18cm;
+	margin-right: auto;
+	margin-left: auto;
+}
+.Headings {
+	width: 100%;
+}
+#gallerythumbnailbox {
+	display: inline;
+}
+.galleryContainer {
+	display: none;
+}
